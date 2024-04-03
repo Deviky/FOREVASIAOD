@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T16:03:53.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="1d2_TWdixuRtzx2prc5f" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T16:07:02.403Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="G1n10vHAv0fzSxIAuMnE" version="24.2.2" type="github">
   <diagram name="Страница — 1" id="mnrUx7IvFL5Lqf37nDay">
     <mxGraphModel dx="1953" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="427" y="160" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="VpDtxjLi-9AnhpgsOLei-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Заявка&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- номерЗаявки: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- страховойПродукт: СтраховойПродукт&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- статусЗаявки: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ получить()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ изменить()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="254" y="410" width="160" height="170" as="geometry" />
+          <mxGeometry x="254" y="410" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="VpDtxjLi-9AnhpgsOLei-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;БазаДаных&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- данные&lt;span style=&quot;background-color: initial;&quot;&gt;: HashTable&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ получить()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ изменить()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="254" y="780" width="160" height="100" as="geometry" />
