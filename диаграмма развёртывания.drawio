@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T10:06:56.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.0" etag="E_UlSLhnMW109BzS3qIQ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T10:19:06.269Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="S_iyobTYO3WRJyUPYhvO" version="24.4.0" type="github">
   <diagram name="Страница — 1" id="iQs4DP584cccqgcO5ozE">
-    <mxGraphModel>
+    <mxGraphModel dx="1838" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-2" value="Сервер системы" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;direction=east;flipH=1;size=10;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-4" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;&amp;lt;database&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;БД страховок&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-6" value="Агентство страхования" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;direction=east;flipH=1;size=10;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;&amp;lt;database&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;БД пользователей&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-8" value="&lt;div style=&quot;&quot;&gt;Пользователь&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-9" value="&lt;div style=&quot;&quot;&gt;Агент страхования&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-10" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;&amp;lt;database&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;БД видов страхования&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-11" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;&amp;lt;database&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;БД агентов страхования&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="KqOuNX_IteqRz5J0FNwx-10" target="KqOuNX_IteqRz5J0FNwx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=80;exitDy=65;exitPerimeter=0;entryX=0.343;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KqOuNX_IteqRz5J0FNwx-11" target="KqOuNX_IteqRz5J0FNwx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="287" y="210" as="sourcePoint" />
+            <mxPoint x="400" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.488;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KqOuNX_IteqRz5J0FNwx-7" target="KqOuNX_IteqRz5J0FNwx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="200" as="sourcePoint" />
+            <mxPoint x="409" y="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=120;exitDy=45;exitPerimeter=0;entryX=0;entryY=0;entryDx=35;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KqOuNX_IteqRz5J0FNwx-2" target="KqOuNX_IteqRz5J0FNwx-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="579" y="359" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=65;exitDy=80;exitPerimeter=0;entryX=0;entryY=0;entryDx=55;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KqOuNX_IteqRz5J0FNwx-2" target="KqOuNX_IteqRz5J0FNwx-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="365" as="sourcePoint" />
+            <mxPoint x="210" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=120;exitDy=45;exitPerimeter=0;entryX=0;entryY=0;entryDx=35;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KqOuNX_IteqRz5J0FNwx-6" target="KqOuNX_IteqRz5J0FNwx-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="400" as="sourcePoint" />
+            <mxPoint x="385" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=45;exitDy=120;exitPerimeter=0;entryX=0.007;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KqOuNX_IteqRz5J0FNwx-9" target="KqOuNX_IteqRz5J0FNwx-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="535" as="sourcePoint" />
+            <mxPoint x="430" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-19" value="SQL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-20" value="SQL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-21" value="SQL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-22" value="SQL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KqOuNX_IteqRz5J0FNwx-24" value="JSON" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
