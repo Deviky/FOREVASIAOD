@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T09:04:02.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="-5qh5NfILJtjQxl1Ltjq" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T09:09:07.107Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="DXPz_uotBuRDJkXodaP5" version="24.4.4" type="github">
   <diagram name="Страница — 1" id="feJYffyxVQz-zG-ypwNW">
-    <mxGraphModel dx="600" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
           <mxGeometry y="88" width="250" height="42" as="geometry" />
         </mxCell>
         <mxCell id="phzOm1wb6SBAu63A0Hw0-9" value="Курс" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="480" width="220" height="82" as="geometry" />
+          <mxGeometry x="90" y="470" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="phzOm1wb6SBAu63A0Hw0-10" value="- названиеКурса : String&lt;div&gt;- описаниеКурса : String&lt;/div&gt;&lt;div&gt;- ценаКурса : int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="phzOm1wb6SBAu63A0Hw0-9">
           <mxGeometry y="26" width="220" height="54" as="geometry" />
@@ -58,17 +58,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="phzOm1wb6SBAu63A0Hw0-28" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=-0.002;exitY=0.307;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="phzOm1wb6SBAu63A0Hw0-23" target="phzOm1wb6SBAu63A0Hw0-9">
+        <mxCell id="phzOm1wb6SBAu63A0Hw0-28" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.288;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="phzOm1wb6SBAu63A0Hw0-9" target="phzOm1wb6SBAu63A0Hw0-23">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="60" y="430" as="sourcePoint" />
-            <mxPoint x="220" y="430" as="targetPoint" />
+            <mxPoint x="240" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="phzOm1wb6SBAu63A0Hw0-29" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="330" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="phzOm1wb6SBAu63A0Hw0-30" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="430" width="60" height="30" as="geometry" />
+        <mxCell id="phzOm1wb6SBAu63A0Hw0-30" value="1..1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="phzOm1wb6SBAu63A0Hw0-31" value="1..*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="414" y="280" width="40" height="30" as="geometry" />
