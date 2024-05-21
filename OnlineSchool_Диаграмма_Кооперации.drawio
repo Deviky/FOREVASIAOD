@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T13:07:42.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="1u_Hrn01K_9d12tVTn-Q" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T13:14:14.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="9YZLt05gLk2w46FzB6_6" version="24.4.4" type="github">
   <diagram name="Страница — 1" id="SnpIPSNj4DhnbsyZ_Omc">
-    <mxGraphModel dx="2327" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1900" dy="807" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,7 +71,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kE0iojpPTj-IzkpC5AIj-8" value="Окно&lt;div&gt;&lt;div&gt;новых уроков&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="kE0iojpPTj-IzkpC5AIj-8" value="Окно&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;уроков&lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="750" y="140" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kE0iojpPTj-IzkpC5AIj-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kE0iojpPTj-IzkpC5AIj-11" target="kE0iojpPTj-IzkpC5AIj-5">
@@ -105,12 +105,12 @@
           <mxGeometry x="30" y="70" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kE0iojpPTj-IzkpC5AIj-31" value="2. занесениеДанныхВБД&lt;div&gt;(курс)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="320" width="150" height="30" as="geometry" />
+          <mxGeometry x="-110" y="320" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kE0iojpPTj-IzkpC5AIj-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="320" as="sourcePoint" />
-            <mxPoint x="40" y="370" as="targetPoint" />
+            <mxPoint x="50" y="320" as="sourcePoint" />
+            <mxPoint x="50" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kE0iojpPTj-IzkpC5AIj-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -218,7 +218,7 @@
         <mxCell id="kE0iojpPTj-IzkpC5AIj-55" value="13. обработкаДанных()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="300" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kE0iojpPTj-IzkpC5AIj-56" value="14. показатьОкноНовыхУроков&lt;div&gt;(чек&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kE0iojpPTj-IzkpC5AIj-56" value="14. показатьОкноУроков&lt;div&gt;(чек&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="250" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kE0iojpPTj-IzkpC5AIj-57" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
