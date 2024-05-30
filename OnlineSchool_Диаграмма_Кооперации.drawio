@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T13:44:53.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="TKrurLai7TGZvr_TSVzz" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T11:45:45.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="HpdBaEtex1B-BY1hsrNW" version="24.4.10" type="github">
   <diagram name="Страница — 1" id="SnpIPSNj4DhnbsyZ_Omc">
-    <mxGraphModel dx="1275" dy="471" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1475" dy="471" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,7 +234,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EU7E2nVUyolKUy001EZv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kE0iojpPTj-IzkpC5AIj-1" target="kE0iojpPTj-IzkpC5AIj-8">
+        <mxCell id="EU7E2nVUyolKUy001EZv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="kE0iojpPTj-IzkpC5AIj-1" target="kE0iojpPTj-IzkpC5AIj-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="662" y="300" as="sourcePoint" />
             <mxPoint x="815" y="200" as="targetPoint" />
@@ -246,7 +246,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EU7E2nVUyolKUy001EZv-2" value="15. вернутьСписокУроков()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="EU7E2nVUyolKUy001EZv-2" value="15. вернутьСписокУроков()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="-0.2" y="-80" relative="1" as="geometry">
             <mxPoint x="944" y="234" as="sourcePoint" />
             <mxPoint x="944" y="184" as="targetPoint" />
