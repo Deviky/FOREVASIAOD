@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T07:42:37.171Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.4.13" etag="6MLintDnBzyltZmGjZOi" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-08T12:55:36.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="_fzVj8gkoclkdMJ1TRPT" version="24.4.13" type="github">
   <diagram name="Страница — 1" id="V_7sA4aOyTJrc3v-8FUp">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Gh5UYvfpfvynSzTzqlQN-7" value="ТГ Бот проект" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="410" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Gh5UYvfpfvynSzTzqlQN-8" value="Программа" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gh5UYvfpfvynSzTzqlQN-7">
+          <mxGeometry x="230" y="120" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gh5UYvfpfvynSzTzqlQN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Gh5UYvfpfvynSzTzqlQN-7" source="Gh5UYvfpfvynSzTzqlQN-1" target="Gh5UYvfpfvynSzTzqlQN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gh5UYvfpfvynSzTzqlQN-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;локальная база данных с информацией о группах" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="Gh5UYvfpfvynSzTzqlQN-7">
+          <mxGeometry x="30" y="80" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Gh5UYvfpfvynSzTzqlQN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Gh5UYvfpfvynSzTzqlQN-7" source="Gh5UYvfpfvynSzTzqlQN-8" target="Gh5UYvfpfvynSzTzqlQN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gh5UYvfpfvynSzTzqlQN-11" value="Файлы из облака&amp;nbsp;&lt;div&gt;Yandex Cloud&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="290" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Gh5UYvfpfvynSzTzqlQN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.573;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Gh5UYvfpfvynSzTzqlQN-11" target="Gh5UYvfpfvynSzTzqlQN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
